@@ -20,7 +20,7 @@ class ECSource {
       }
 
       // out of place value -- can return false for the whole list
-      if(head.val != unival) {
+      if(!head.val.equals(unival)) {
           return false;
       }
 
